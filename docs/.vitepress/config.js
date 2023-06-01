@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/',
+  base: '/hex-lowcode-engine-starter/',
   title: 'Hex Lowcode Engine',
   description: '一款高效的低代码引擎',
   lastUpdated: true,
