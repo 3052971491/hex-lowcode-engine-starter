@@ -8,11 +8,14 @@ export default defineConfig({
   cleanUrls: true,
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/public/images/icon.png' }],
+    ['meta', { name: 'theme-color', content: '#646cff' }],
   ],
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
+    logo: '/public/images/icon.png',
     // 导航栏
     nav: nav(),
 
@@ -42,7 +45,11 @@ export default defineConfig({
         indexName: 'vitepress'
       }
     },
-  }
+  },
+  locales: {
+    root: { label: '简体中文' },
+    en: { label: 'English', link: 'https://en.vitejs.dev' },
+  },
 })
 
 function nav() {

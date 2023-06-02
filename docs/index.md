@@ -7,7 +7,7 @@ hero:
   text: 一款高效的低代码引擎
   tagline: 可视化拖拽式设计，快速开发页面，享受更多摸鱼时光...
   image:
-    src: https://zerdocs.oss-cn-shanghai.aliyuncs.com/interview/202304181505379.webp
+    src: /public/images/icon.png
     alt: Hex Lowcode Engine
   actions:
     - theme: brand
