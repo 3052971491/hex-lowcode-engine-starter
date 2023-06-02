@@ -9,22 +9,13 @@ export default defineConfig({
 
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
-    [
-      'script',
-      {
-        src: 'https://cdn.usefathom.com/script.js',
-        'data-site': 'AZBRSFGG',
-        'data-spa': 'auto',
-        defer: ''
-      }
-    ]
   ],
   themeConfig: {
     nav: nav(),
 
     sidebar: {
       '/guide/': sidebarGuide(),
-      // '/reference/': sidebarReference()
+      '/developer/': sidebarDeveloper()
     },
 
     socialLinks: [
@@ -49,8 +40,12 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: '首页', link: '/', activeMatch: '/' },
+    { text: '首页', link: '/' },
     { text: '指南', link: '/guide/introduce', activeMatch: '/guide/' },
+    {
+      text: '开发者中心',
+      link: '/developer/learning',
+    },
     {
       text: '配置',
       link: '/configuration/site-config',
@@ -72,6 +67,20 @@ function sidebarGuide() {
         { text: '实现', link: '/guide/realization' },
         { text: '安装', link: '/guide/install' },
         { text: '使用', link: '/guide/use' }
+      ]
+    },
+  ]
+}
+
+function sidebarDeveloper() {
+  return [
+    {
+      text: '开发者中心',
+      collapsed: false,
+      items: [
+        { text: '开发指南', link: '/developer/learning' },
+        { text: 'API', link: '/developer/api' },
+        { text: '组件', link: '/developer/components' }
       ]
     },
   ]

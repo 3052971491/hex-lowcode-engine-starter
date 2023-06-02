@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zh/tutorials/introduce
+      link: /guide/introduce
     - theme: alt
       text: 项目源码
       link: https://gitee.com/mutoua/hex-lowcode-engine
