@@ -5,10 +5,9 @@ export default defineConfig({
   title: 'Hex Lowcode Engine',
   description: '一款高效的低代码引擎',
   lastUpdated: true,
-  cleanUrls: true,
+  // cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/hex-lowcode-engine-starter/images/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { name: 'theme-color', content: '#646cff' }],
   ],
   markdown: {
@@ -54,7 +53,6 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: '首页', link: '/' },
     { text: '指南', link: '/guide/introduce', activeMatch: '/guide/' },
     {
       text: '开发者中心',
