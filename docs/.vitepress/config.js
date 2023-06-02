@@ -53,6 +53,7 @@ export default defineConfig({
 
 function nav() {
   return [
+    { text: '首页', link: '/' },
     { text: '指南', link: '/guide/introduce', activeMatch: '/guide/' },
     {
       text: '开发者中心',
