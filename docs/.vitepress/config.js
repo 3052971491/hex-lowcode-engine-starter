@@ -7,15 +7,15 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   head: [
+    ['link', { rel: 'icon', href: '/hex-lowcode-engine-starter/images/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/public/images/icon.png' }],
     ['meta', { name: 'theme-color', content: '#646cff' }],
   ],
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
-    logo: '/public/images/icon.png',
+    logo: '/images/icon.png',
     // 导航栏
     nav: nav(),
 
@@ -48,7 +48,7 @@ export default defineConfig({
   },
   locales: {
     root: { label: '简体中文' },
-    en: { label: 'English', link: 'https://en.vitejs.dev' },
+    en: { label: 'English', link: 'https://www.zczchen.top/hex-lowcode-engine-starter/' },
   },
 })
 
@@ -96,7 +96,7 @@ function sidebarDeveloper() {
       collapsed: false,
       items: [
         { text: '开发指南', link: '/developer/learning' },
-        { text: 'API', link: '/developer/api' },
+        { text: 'JS-API', link: '/developer/api' },
         { text: '组件', link: '/developer/components' }
       ]
     },
