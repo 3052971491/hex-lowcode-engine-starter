@@ -6,27 +6,31 @@ export default defineConfig({
   description: '一款高效的低代码引擎',
   lastUpdated: true,
   cleanUrls: true,
-
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
   ],
   themeConfig: {
+    // 导航栏
     nav: nav(),
 
+    // 侧边栏
     sidebar: {
       '/guide/': sidebarGuide(),
       '/developer/': sidebarDeveloper()
     },
 
+    // 链接
     socialLinks: [
       { icon: 'github', link: 'https://gitee.com/mutoua/hex-lowcode-engine' }
     ],
 
+    // 底部
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present JunJie Yuan'
     },
 
+    // 搜索
     search: {
       provider: 'algolia',
       options: {
@@ -45,15 +49,18 @@ function nav() {
     {
       text: '开发者中心',
       link: '/developer/learning',
+      activeMatch: '/developer/'
     },
-    {
-      text: '配置',
-      link: '/configuration/site-config',
-    },
-    {
-      text: '相关链接',
-      link: '/reference/site-config',
-    },
+    // {
+    //   text: '配置',
+    //   link: '/configuration/site-config',
+    //   activeMatch: '/configuration/'
+    // },
+    // {
+    //   text: '相关链接',
+    //   link: '/reference/site-config',
+    //   activeMatch: '/reference/'
+    // },
   ]
 }
 
