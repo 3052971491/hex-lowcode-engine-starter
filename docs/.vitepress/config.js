@@ -60,6 +60,16 @@ function nav() {
       link: '/developer/learning',
       activeMatch: '/developer/'
     },
+    {
+      text: '更新日志',
+      link: '/change-log/index',
+      activeMatch: '/change-log/'
+    },
+    {
+      text: '高频问题',
+      link: '/problem/index',
+      activeMatch: '/problem/'
+    },
     // {
     //   text: '配置',
     //   link: '/configuration/site-config',
@@ -96,7 +106,58 @@ function sidebarDeveloper() {
       items: [
         { text: '开发指南', link: '/developer/learning' },
         { text: 'JS-API', link: '/developer/api' },
-        { text: '组件', link: '/developer/components' }
+        { 
+          text: '组件', 
+          collapsed: true,
+          items: [
+            { 
+              text: '组件通用属性类型', 
+              link: '/developer/components/interface'
+            },
+            { 
+              text: '基础控件', 
+              collapsed: true,
+              items: [
+                { text: 'Text 文本', link: '/developer/components/BASIC/Text' },
+                { text: 'ButtonGroup 按钮组', link: '/developer/components/BASIC/ButtonGroup' },
+                { text: 'Divider 分割线', link: '/developer/components/BASIC/Divider' },
+              ]
+            },
+            { 
+              text: '表单控件', 
+              collapsed: true,
+              items: [
+                { text: 'Input 单行文本', link: '/developer/components/FORM/Input' },
+                { text: 'Textarea 多行文本', link: '/developer/components/FORM/Textarea' },
+                { text: 'InputNumber 数值输入', link: '/developer/components/FORM/InputNumber' },
+                { text: 'Switch 开关', link: '/developer/components/FORM/Switch' },
+                { text: 'Radio 单选框', link: '/developer/components/FORM/Radio' },
+                { text: 'Checkbox 多选框', link: '/developer/components/FORM/Checkbox' },
+                { text: 'DatePicker 日期', link: '/developer/components/FORM/DatePicker' },
+                { text: 'RangePicker 日期区间', link: '/developer/components/FORM/RangePicker' },
+                { text: 'Rate 评分', link: '/developer/components/FORM/Rate' },
+              ]
+            },
+            { 
+              text: '布局控件', 
+              collapsed: true,
+              items: [
+                { text: 'Row 栅格', link: '/developer/components/LAYOUT/Row' },
+                { text: 'Card 卡片', link: '/developer/components/LAYOUT/Card' },
+                { text: 'Space 间距', link: '/developer/components/LAYOUT/Space' },
+                { text: 'Collapse 折叠面板', link: '/developer/components/LAYOUT/Collapse' },
+                { text: 'Tabs 标签页', link: '/developer/components/LAYOUT/Tabs' },
+              ]
+            },
+            { 
+              text: '高级控件',
+              collapsed: true, 
+              items: [
+                { text: 'Form 表单', link: '/developer/components/ADVANCED/Form' },
+              ]
+            }
+          ]
+        }
       ]
     },
   ]
