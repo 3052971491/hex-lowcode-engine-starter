@@ -90,9 +90,8 @@ function sidebarGuide() {
       collapsed: false,
       items: [
         { text: '介绍', link: '/guide/introduce' },
-        { text: '实现', link: '/guide/realization' },
+        { text: '技术实现', link: '/guide/realization' },
         { text: '安装', link: '/guide/install' },
-        { text: '使用', link: '/guide/use' }
       ]
     },
   ]
