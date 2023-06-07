@@ -18,7 +18,7 @@ stages:
         name: build_docker
         displayName: 镜像构建
         type: account
-        repository: https://hub.docker.com/
+        repository: docker.io
         username: yuanjunjie
         password: PiKa541823.0.
         tag: ${GITEE_PIPELINE_BUILD_NUMBER}
