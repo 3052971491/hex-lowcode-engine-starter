@@ -9,7 +9,7 @@ triggers:
         - master
 stages:
   - name: stage-b5681ffe
-    displayName: 未命名
+    displayName: yuanjunjie/hex-lowcode-engine-starter
     strategy: naturally
     trigger: auto
     executor: []
@@ -17,8 +17,10 @@ stages:
       - step: build@docker
         name: build_docker
         displayName: 镜像构建
-        type: cert
-        certificate: 7f8eeca0-e741-013b-c978-2a53ec0b7704
+        type: account
+        repository: https://hub.docker.com/
+        username: yuanjunjie
+        password: PiKa541823.0.
         tag: ${GITEE_PIPELINE_BUILD_NUMBER}
         dockerfile: ./Dockerfile
         context: ''
