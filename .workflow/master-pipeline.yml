@@ -18,10 +18,10 @@ stages:
         name: build_docker
         displayName: 镜像构建
         type: account
-        repository: https://hub.docker.com/
+        repository: https://hub.docker.com/r/yuanjunjie
         username: yuanjunjie
         password: PiKa541823.0.
-        tag: yuanjunjie/hex-lowcode-engine-starter
+        tag: hex-lowcode-engine-starter
         dockerfile: ./Dockerfile
         context: ''
         artifacts: []
