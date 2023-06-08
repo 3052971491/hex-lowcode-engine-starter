@@ -19,7 +19,7 @@ stages:
         displayName: 镜像构建
         type: cert
         certificate: 7f8eeca0-e741-013b-c978-2a53ec0b7704
-        tag: hex-lowcode-engine-starter
+        tag: hex-lowcode-engine-starter:dev
         dockerfile: ./Dockerfile
         context: ''
         artifacts: []
