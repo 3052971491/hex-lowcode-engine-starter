@@ -19,7 +19,7 @@ stages:
         displayName: 镜像构建
         type: cert
         certificate: 7f8eeca0-e741-013b-c978-2a53ec0b7704
-        tag: hex-lowcode-engine-starter:dev
+        tag: hex-lowcode-engine-starter
         dockerfile: ./Dockerfile
         context: ''
         artifacts: []
@@ -29,9 +29,6 @@ stages:
         strategy:
           retry: '0'
           expression: []
-        script: 
-          |
-          ls
       - step: execute@docker
         name: execute_by_docker
         displayName: 基于镜像的脚本执行
