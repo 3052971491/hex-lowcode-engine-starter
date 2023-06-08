@@ -17,10 +17,8 @@ stages:
       - step: build@docker
         name: build_docker
         displayName: 镜像构建
-        type: account
-        repository: https://hub.docker.com/r/yuanjunjie
-        username: yuanjunjie
-        password: PiKa541823.0.
+        type: cert
+        certificate: 7f8eeca0-e741-013b-c978-2a53ec0b7704
         tag: hex-lowcode-engine-starter
         dockerfile: ./Dockerfile
         context: ''
