@@ -21,7 +21,7 @@ stages:
         repository: https://hub.docker.com
         username: yuanjunjie
         password: PiKa541823.0.
-        tag: hex-lowcode-engine-starter
+        tag: hex-lowcode-engine-starter:dev
         dockerfile: ./Dockerfile
         context: ''
         artifacts: []
