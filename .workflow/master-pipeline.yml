@@ -22,7 +22,8 @@ stages:
         tag: hex-lowcode-engine-starter
         dockerfile: ./Dockerfile
         context: ''
-        artifacts: []
+        artifacts:
+          - ${BUILD_ARTIFACT}
         isCache: false
         parameter: {}
         notify: []
