@@ -29,6 +29,9 @@ stages:
         strategy:
           retry: '0'
           expression: []
+        script: 
+          |
+          ls
       - step: execute@docker
         name: execute_by_docker
         displayName: 基于镜像的脚本执行
