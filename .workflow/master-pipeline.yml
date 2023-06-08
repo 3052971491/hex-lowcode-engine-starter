@@ -23,7 +23,7 @@ stages:
         dockerfile: ./Dockerfile
         context: ''
         artifacts:
-          - ${BUILD_ARTIFACT}
+          - dist
         isCache: false
         parameter: {}
         notify: []
