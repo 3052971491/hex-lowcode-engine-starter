@@ -19,7 +19,7 @@ stages:
         displayName: 镜像构建
         type: cert
         certificate: 7f8eeca0-e741-013b-c978-2a53ec0b7704
-        tag: ${GITEE_PIPELINE_BUILD_NUMBER}
+        tag: hex-lowcode-engine-starter
         dockerfile: ./Dockerfile
         context: ''
         artifacts: []
