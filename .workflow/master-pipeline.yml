@@ -28,3 +28,20 @@ stages:
         notify: []
         strategy:
           retry: '0'
+          expression: []
+      - step: execute@docker
+        name: execute_by_docker
+        displayName: 基于镜像的脚本执行
+        certificate: 7f8eeca0-e741-013b-c978-2a53ec0b7704
+        image: hex-lowcode-engine-starter:dev
+        command:
+          - '# 请在此输入您想执行的脚本'
+          - echo 'Hello Gitee!'
+        artifacts:
+          - name: BUILD_ARTIFACT
+            path:
+              - ./target
+        notify: []
+        strategy:
+          retry: '0'
+        dependsOn: build_docker
