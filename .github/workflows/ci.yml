@@ -20,8 +20,7 @@ jobs:
 
       - name: Push to Docker Registry
         run: |
-          sudo su
-          sudo docker push yuanjunjie/hex-lowcode-engine-starter:latest
+          docker push yuanjunjie/hex-lowcode-engine-starter:latest
 
   deploy:
     needs: [build]
