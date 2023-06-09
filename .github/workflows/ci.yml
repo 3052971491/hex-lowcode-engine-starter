@@ -13,14 +13,14 @@ jobs:
 
       - name: Build docker
         run: |
-          docker build -t yuanjunjie/hex-lowcode-engine-starter:dev .
+          docker build -t yuanjunjie/hex-lowcode-engine-starter .
 
       - name: Login to Docker Registry1
         run: docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push to Docker Registry
         run: |
-          docker push yuanjunjie/hex-lowcode-engine-starter:dev
+          docker push yuanjunjie/hex-lowcode-engine-starter
 
   deploy:
     needs: [build]
@@ -33,7 +33,7 @@ jobs:
       - name: Update docker images
         run: |
           sudo su
-          sudo docker pull yuanjunjie/hex-lowcode-engine-starter:dev
+          sudo docker pull yuanjunjie/hex-lowcode-engine-starter
 
       - name: Login to Docker Registry 
         run: |
