@@ -63,7 +63,7 @@ function nav() {
     },
     {
       text: '更新日志',
-      link: '/change-log/2023年6月 版本发布',
+      link: '/change-log/2023-6-21',
       activeMatch: '/change-log/'
     },
     {
@@ -166,8 +166,8 @@ function sidebarDeveloper() {
 function sidebarChangeLog() {
   return [
     {
-      text: '2023年6月 版本发布',
-      link: '/change-log/2023年6月 版本发布'
+      text: '2023-6-21',
+      link: '/change-log/2023-6-21'
     },
   ]
 }
