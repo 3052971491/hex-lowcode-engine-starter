@@ -10,13 +10,9 @@
 
 ## 组件属性
 
-| 属性  | 说明     | 类型                   | 默认值 |
-| ----- | -------- | ---------------------- | ------ |
-| align | 对齐方式 | left`|`center`| `right | left   |
-
-
-
-
+| 属性  | 说明     | 类型                    | 默认值 |
+| ----- | -------- | ----------------------- | ------ |
+| align | 对齐方式 | `left`,`center`,`right` | `left` |
 
 # Button 按钮
 
@@ -30,12 +26,12 @@
 
 ## 组件属性
 
-| 属性    | 说明                           | 类型                                 | 默认值           |
-| ------- | ------------------------------ | ------------------------------------ | ---------------- |
-| size    | 按钮尺寸大小                   | large` | `middle` | `small`|`default | default          |
-| title   | 名称                           | string                               | 'Default Button' |
-| type    | 按钮类型                       | boolean                              | false            |
-| ghost   | 幽灵模式                       | boolean                              | false            |
-| danger  | 设置危险按钮                   | boolean                              | false            |
-| loading | 加载状态                       | boolean                              | false            |
-| block   | 将按钮宽度调整为其父宽度的选项 | boolean                              | false            |
+| 属性    | 说明                           | 类型                                         | 默认值           |
+| ------- | ------------------------------ | -------------------------------------------- | ---------------- |
+| size    | 按钮尺寸大小                   | `large`,`middle`,`small`,`default`,`default` |
+| title   | 名称                           | string                                       | 'Default Button' |
+| type    | 按钮类型                       | boolean                                      | false            |
+| ghost   | 幽灵模式                       | boolean                                      | false            |
+| danger  | 设置危险按钮                   | boolean                                      | false            |
+| loading | 加载状态                       | boolean                                      | false            |
+| block   | 将按钮宽度调整为其父宽度的选项 | boolean                                      | false            |
