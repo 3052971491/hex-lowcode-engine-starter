@@ -21,7 +21,8 @@ export default defineConfig({
     // 侧边栏
     sidebar: {
       '/guide/': sidebarGuide(),
-      '/developer/': sidebarDeveloper()
+      '/developer/': sidebarDeveloper(),
+      '/change-log/': sidebarChangeLog()
     },
 
     // 链接
@@ -62,7 +63,7 @@ function nav() {
     },
     {
       text: '更新日志',
-      link: '/change-log/index',
+      link: '/change-log/2023年6月 版本发布',
       activeMatch: '/change-log/'
     },
     {
@@ -158,6 +159,15 @@ function sidebarDeveloper() {
           ]
         }
       ]
+    },
+  ]
+}
+
+function sidebarChangeLog() {
+  return [
+    {
+      text: '2023年6月 版本发布',
+      link: '/change-log/2023年6月 版本发布'
     },
   ]
 }
