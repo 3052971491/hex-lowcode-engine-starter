@@ -1,39 +1,19 @@
 # hex-lowcode-engine-starter
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## 简介
 
-#### 软件架构
-软件架构说明
+Hex Lowcode Engine 是一款基于 Vue 3 的低代码引擎，支持 ant-design-vue 组件库，定位为前端开发人员提供快速搭建页面、实现页面交互和数据收集的功能。
 
+HexLowcodeEngine 全称为 Hex Lowcode Engine，寓意为高科技的 Vue 低代码引擎。
 
-#### 安装教程
+Hex Lowcode Engine 由设计器 Compiler 和渲染器 Renderer 两部分构成，Compiler 通过拖拽组件方式生成 JSON 格式的对象，Renderer 负责将页面 JSON 渲染为 Vue 组件。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Hex Lowcode Engine 提供了丰富的组件属性设置、交互事件和 API 方法，并且为开发者预留了拓展组件库的二次开发接口。
 
-#### 使用说明
+文档链接：https://www.zczchen.top/hex-lowcode-engine-starter/
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+产品链接：https://www.zczchen.top/hex-lowcode-engine/
 
-#### 参与贡献
+## 交流群
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![](./docs/public/img/communication-group.jpg)

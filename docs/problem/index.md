@@ -14,4 +14,8 @@
 
 **qq: 3052971491**
 
-**vx: pika15173886750**
+**wx: pika15173886750**
+
+## 3、我有建议和 Issues 应该去哪里提？
+
+如果有任何问题，可以前往[hex-lowcode-engine-starter](https://github.com/3052971491/hex-lowcode-engine-starter/issues) 提 `Issues`

@@ -22,12 +22,11 @@ export default defineConfig({
     sidebar: {
       '/guide/': sidebarGuide(),
       '/developer/': sidebarDeveloper(),
-      '/change-log/': sidebarChangeLog()
     },
 
     // 链接
     socialLinks: [
-      { icon: 'github', link: 'https://gitee.com/mutoua/hex-lowcode-engine' }
+      { icon: 'github', link: 'https://github.com/3052971491/hex-lowcode-engine-starter' }
     ],
 
     // 底部
@@ -63,7 +62,7 @@ function nav() {
     },
     {
       text: '更新日志',
-      link: '/change-log/2023-6-21',
+      link: '/change-log/index',
       activeMatch: '/change-log/'
     },
     {
@@ -159,15 +158,6 @@ function sidebarDeveloper() {
           ]
         }
       ]
-    },
-  ]
-}
-
-function sidebarChangeLog() {
-  return [
-    {
-      text: '2023-6-21',
-      link: '/change-log/2023-6-21'
     },
   ]
 }
