@@ -20,6 +20,7 @@ jobs:
 
       - name: Push to Docker Registry
         run: |
+          docker search yuanjunjie/hex-lowcode-engine-starter
           docker push yuanjunjie/hex-lowcode-engine-starter:latest
 
   deploy:
