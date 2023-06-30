@@ -16,7 +16,9 @@ jobs:
           docker build -t yuanjunjie/hex-lowcode-engine-starter:dev .
 
       - name: Login to Docker Registry
-        run: docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
+        run: | 
+          sudo su
+          sudo docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push to Docker Registry
         run: |
