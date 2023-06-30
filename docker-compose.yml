@@ -7,7 +7,7 @@ networks:
 services:
   vueui:
     container_name: hex-lowcode-engine-starter
-    image: yuanjunjie/hex-lowcode-engine-starter:latest
+    image: yuanjunjie/hex-lowcode-engine-starter:dev
     restart: always
     networks:
       - web_net
