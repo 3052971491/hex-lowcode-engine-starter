@@ -17,7 +17,6 @@ jobs:
 
       - name: Login to Docker Registry
         run: | 
-          login out
           sudo su
           docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
 
