@@ -24,7 +24,7 @@ jobs:
         run: |
           sudo su
           docker images
-          docker tag hex-lowcode-engine-starter:dev hex-lowcode-engine-starter:dev
+          docker tag 05c1654ec831 yuanjunjie/hex-lowcode-engine-starter:dev
           sudo docker push hex-lowcode-engine-starter:dev
 
   deploy:
