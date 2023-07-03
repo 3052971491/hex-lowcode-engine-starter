@@ -23,8 +23,8 @@ jobs:
       - name: Push to Docker Registry
         run: |
           sudo su
-          docker tag hex-lowcode-engine-starter:dev hex-lowcode-engine-starter:dev
           docker images
+          docker tag hex-lowcode-engine-starter:dev hex-lowcode-engine-starter:dev
           sudo docker push hex-lowcode-engine-starter:dev
 
   deploy:
