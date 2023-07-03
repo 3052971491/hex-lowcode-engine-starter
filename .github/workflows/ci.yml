@@ -24,6 +24,7 @@ jobs:
         run: |
           sudo su
           docker tag hex-lowcode-engine-starter:dev  yuanjunjie/hex-lowcode-engine-starter:dev
+          docker push  yuanjunjie/hex-lowcode-engine-starter:dev
           sudo docker push yuanjunjie/hex-lowcode-engine-starter:dev
 
   deploy:
