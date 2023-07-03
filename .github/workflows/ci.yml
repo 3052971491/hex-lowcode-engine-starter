@@ -17,6 +17,7 @@ jobs:
 
       - name: Login to Docker Registry
         run: | 
+          login out
           sudo su
           docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
 
@@ -24,7 +25,7 @@ jobs:
         run: |
           sudo su
           docker images
-          docker tag 05c1654ec831 yuanjunjie/hex-lowcode-engine-starter:dev
+          docker tag yuanjunjie/hex-lowcode-engine-starter:dev yuanjunjie/hex-lowcode-engine-starter:dev
           sudo docker push hex-lowcode-engine-starter:dev
 
   deploy:
