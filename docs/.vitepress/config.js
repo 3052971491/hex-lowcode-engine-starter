@@ -120,6 +120,7 @@ function sidebarDeveloper() {
                 { text: 'Text 文本', link: '/developer/components/BASIC/Text' },
                 { text: 'ButtonGroup 按钮组', link: '/developer/components/BASIC/ButtonGroup' },
                 { text: 'Divider 分割线', link: '/developer/components/BASIC/Divider' },
+                { text: 'Alert 警告提示', link: '/developer/components/BASIC/Alert' },
               ]
             },
             { 
