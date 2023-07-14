@@ -16,4 +16,4 @@ Hex Lowcode Engine 提供了丰富的组件属性设置、交互事件和 API �
 
 ## 交流群
 
-![](./docs/public/img/communication-group.jpg)
+![二维码](./docs/public/img/communication-group.jpg)
