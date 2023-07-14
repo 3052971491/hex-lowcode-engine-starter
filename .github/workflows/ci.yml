@@ -23,9 +23,7 @@ jobs:
       - name: Push to Docker Registry
         run: |
           sudo su
-          docker images
-          docker tag yuanjunjie/hex-lowcode-engine-starter:dev yuanjunjie/hex-lowcode-engine-starter:dev
-          sudo docker push hex-lowcode-engine-starter:dev
+          sudo docker push yuanjunjie/hex-lowcode-engine-starter:dev
 
   deploy:
     needs: [build]
