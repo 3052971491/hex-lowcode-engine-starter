@@ -154,6 +154,7 @@ function sidebarDeveloper() {
               collapsed: true, 
               items: [
                 { text: 'Form 表单', link: '/developer/components/ADVANCED/Form' },
+                { text: 'Vue', link: '/developer/components/ADVANCED/Vue' },
               ]
             }
           ]
