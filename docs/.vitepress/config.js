@@ -118,6 +118,7 @@ function sidebarDeveloper() {
               collapsed: true,
               items: [
                 { text: 'Text 文本', link: '/developer/components/BASIC/Text' },
+                { text: 'Image 图片', link: '/developer/components/BASIC/Image' },
                 { text: 'ButtonGroup 按钮组', link: '/developer/components/BASIC/ButtonGroup' },
                 { text: 'Divider 分割线', link: '/developer/components/BASIC/Divider' },
                 { text: 'Alert 警告提示', link: '/developer/components/BASIC/Alert' },
@@ -133,8 +134,12 @@ function sidebarDeveloper() {
                 { text: 'Switch 开关', link: '/developer/components/FORM/Switch' },
                 { text: 'Radio 单选框', link: '/developer/components/FORM/Radio' },
                 { text: 'Checkbox 多选框', link: '/developer/components/FORM/Checkbox' },
+                { text: 'Select 下拉选择', link: '/developer/components/FORM/Select' },
+                { text: 'MultiSelect 下拉多选', link: '/developer/components/FORM/MultiSelect' },
                 { text: 'DatePicker 日期', link: '/developer/components/FORM/DatePicker' },
                 { text: 'RangePicker 日期区间', link: '/developer/components/FORM/RangePicker' },
+                { text: 'TimePicker 时间', link: '/developer/components/FORM/TimePicker' },
+                { text: 'TimeRangePicker 时间', link: '/developer/components/FORM/TimeRangePicker' },
                 { text: 'Rate 评分', link: '/developer/components/FORM/Rate' },
               ]
             },
@@ -155,6 +160,7 @@ function sidebarDeveloper() {
               items: [
                 { text: 'Form 表单', link: '/developer/components/ADVANCED/Form' },
                 { text: 'Vue', link: '/developer/components/ADVANCED/Vue' },
+                { text: 'Progress 进度条', link: '/developer/components/ADVANCED/Progress' },
               ]
             }
           ]

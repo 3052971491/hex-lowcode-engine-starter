@@ -16,9 +16,6 @@ hero:
     - theme: alt
       text: 预览地址
       link: https://www.zczchen.top/hex-lowcode-engine/
-    - theme: alt
-      text: 项目源码
-      link: https://gitee.com/mutoua/hex-lowcode-engine
 features:
   - icon: 🎨
     title: 丰富的组件库
