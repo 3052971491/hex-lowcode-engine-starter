@@ -161,6 +161,14 @@ function sidebarDeveloper() {
                 { text: 'Form 表单', link: '/developer/components/ADVANCED/Form' },
                 { text: 'Vue', link: '/developer/components/ADVANCED/Vue' },
                 { text: 'Progress 进度条', link: '/developer/components/ADVANCED/Progress' },
+                { text: 'Table 表格', link: '/developer/components/ADVANCED/Table' },
+              ]
+            },
+            { 
+              text: '业务控件',
+              collapsed: true, 
+              items: [
+                { text: 'QRcode 二维码', link: '/developer/components/BUSINESS/QRcode' },
               ]
             }
           ]
