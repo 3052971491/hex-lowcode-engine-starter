@@ -141,6 +141,7 @@ function sidebarDeveloper() {
                 { text: 'TimePicker 时间', link: '/developer/components/FORM/TimePicker' },
                 { text: 'TimeRangePicker 时间', link: '/developer/components/FORM/TimeRangePicker' },
                 { text: 'Rate 评分', link: '/developer/components/FORM/Rate' },
+                { text: 'Upload 上传', link: '/developer/components/FORM/Upload' },
               ]
             },
             { 
@@ -160,8 +161,9 @@ function sidebarDeveloper() {
               items: [
                 { text: 'Form 表单', link: '/developer/components/ADVANCED/Form' },
                 { text: 'Vue', link: '/developer/components/ADVANCED/Vue' },
-                { text: 'Progress 进度条', link: '/developer/components/ADVANCED/Progress' },
+                { text: 'Filter 查询', link: '/developer/components/ADVANCED/Filter' },
                 { text: 'Table 表格', link: '/developer/components/ADVANCED/Table' },
+                { text: 'Progress 进度条', link: '/developer/components/ADVANCED/Progress' },
               ]
             },
             { 
