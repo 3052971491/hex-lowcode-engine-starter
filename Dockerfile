@@ -30,5 +30,5 @@ RUN rm -rf /usr/share/nginx/html/*
 EXPOSE 80
 
 # 从编译镜像复制编译结果到此镜像
-COPY --from=builder /app/docs/.vitepress/dist /usr/share/nginx/html
+COPY --from=builder /app/docs/.vitepress/dist /usr/share/nginx/html/hex-lowcode-engine-starter
 
