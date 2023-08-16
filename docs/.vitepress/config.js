@@ -1,13 +1,13 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/',
+  base: '/hex-lowcode-engine-starter/',
   title: 'Hex Lowcode Engine',
   description: '一款高效的低代码引擎',
   lastUpdated: true,
   // cleanUrls: true,
   head: [
-    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/hex-lowcode-engine-starter/images/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#646cff' }],
   ],
   markdown: {
