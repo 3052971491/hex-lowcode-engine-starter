@@ -12,4 +12,4 @@ services:
     networks:
       - web_net
     ports:
-      - '8080:80'
+      - '8086:80'
