@@ -43,10 +43,10 @@ jobs:
       - name: Run
         run: |
           sudo su
-          ls 
           sudo docker compose -f docker-compose.yml up -d
           
       - name: Clear Docker Cache
         run: |
+          sudo su
           sudo docker image prune -f
           sudo docker volume prune -f
