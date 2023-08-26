@@ -142,6 +142,7 @@ function sidebarDeveloper() {
                 { text: 'TimeRangePicker 时间', link: '/developer/components/FORM/TimeRangePicker' },
                 { text: 'Rate 评分', link: '/developer/components/FORM/Rate' },
                 { text: 'Upload 上传', link: '/developer/components/FORM/Upload' },
+                { text: 'SubForm 子表单', link: '/developer/components/FORM/SubForm' },
               ]
             },
             { 

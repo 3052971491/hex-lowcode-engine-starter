@@ -336,6 +336,44 @@ export function scrollToField() {
 }
 ```
 
+## 子表单组件 API
+
+子表单组件是【hex-lowcode-engine】最重要的一类组件，我们通常通过子表单组件组件来实现一对多关系中明细数据展示、编辑的容器组件。
+
+### this.$(fieldId).setCellAttribute()
+
+设置整个`子表单, 或整列, 或整行, 或某行某列`组件的值。
+
+```js
+export function setCellAttribute() {
+  /**
+   * 禁用子表单第二行第二列
+   * @params property 属性名
+   * @params value 属性值
+   * @params row 某行
+   * @params column 某列
+   */
+  this.$("SubForm_pXKoeCqI").setCellAttribute("behavior", "disabled", 2, 2);
+}
+```
+
+### this.$(fieldId).getCellAttribute()
+
+获取整个`子表单, 或整列, 或整行, 或某行某列`组件的值。
+
+```js
+export function getCellAttribute() {
+  /**
+   * 获取子表单第二行第二列组件的状态
+   * @params property 属性名
+   * @params row 某行
+   * @params column 某列
+   * @return
+   */
+  this.$("SubForm_pXKoeCqI").getCellAttribute("behavior", 2, 2);
+}
+```
+
 ## 表格组件 API
 
 表格组件是【hex-lowcode-engine】最重要的一类组件，我们通常通过表格组件来展示列表数据以及操作，例如：用户列表、角色列表等。
