@@ -33,6 +33,7 @@ jobs:
       - name: Update docker images
         run: |
           sudo su
+          sudo docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
           sudo docker pull yuanjunjie/hex-lowcode-engine-starter:dev
 
       - name: Login to Docker Registry 
@@ -43,10 +44,12 @@ jobs:
       - name: Run
         run: |
           sudo su
+          sudo docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
           sudo docker compose -f docker-compose.yml up -d
           
       - name: Clear Docker Cache
         run: |
           sudo su
+          sudo docker login --username=${{ secrets.DOCKER_USER_NAME }} --password=${{ secrets.DOCKER_PASSWORD }}
           sudo docker image prune -f
           sudo docker volume prune -f
