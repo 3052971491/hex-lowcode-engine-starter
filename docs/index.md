@@ -15,7 +15,7 @@ hero:
       link: /guide/introduce
     - theme: alt
       text: 预览地址
-      link: https://www.zczchen.top/hex-lowcode-engine/
+      link: http://hle.yuanjunjie.top/
 features:
   - icon: 🎨
     title: 丰富的组件库
